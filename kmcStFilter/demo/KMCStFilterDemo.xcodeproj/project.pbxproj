@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1140902AF7BEDB397EEBC3AB /* libPods-KMCStFilterDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D46AF1D769C0DDC4E25140B /* libPods-KMCStFilterDemo.a */; };
+		F2128F471ED5743600A6162F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2128F371ED5743600A6162F /* AppDelegate.m */; };
+		F2128F481ED5743600A6162F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2128F381ED5743600A6162F /* Assets.xcassets */; };
+		F2128F491ED5743600A6162F /* FilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2128F3A1ED5743600A6162F /* FilterManager.m */; };
+		F2128F4A1ED5743600A6162F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2128F3B1ED5743600A6162F /* Info.plist */; };
+		F2128F4B1ED5743600A6162F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2128F3C1ED5743600A6162F /* main.m */; };
+		F2128F4C1ED5743600A6162F /* StickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2128F3E1ED5743600A6162F /* StickerCell.m */; };
+		F2128F4D1ED5743600A6162F /* StickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2128F401ED5743600A6162F /* StickerView.m */; };
+		F2128F4E1ED5743600A6162F /* UIButton+init.m in Sources */ = {isa = PBXBuildFile; fileRef = F2128F421ED5743600A6162F /* UIButton+init.m */; };
+		F2128F4F1ED5743600A6162F /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = F2128F441ED5743600A6162F /* UIColor+Expanded.m */; };
+		F2128F501ED5743600A6162F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2128F461ED5743600A6162F /* ViewController.m */; };
+		F2128F551ED5744100A6162F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2128F511ED5744100A6162F /* LaunchScreen.storyboard */; };
+		F2128F561ED5744100A6162F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2128F531ED5744100A6162F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D46AF1D769C0DDC4E25140B /* libPods-KMCStFilterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KMCStFilterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99ECFB8F7AE3668EFED0942A /* Pods-KMCStFilterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMCStFilterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMCStFilterDemo/Pods-KMCStFilterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DFD10C4D1A1AFC2D0961BE13 /* Pods-KMCStFilterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMCStFilterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMCStFilterDemo/Pods-KMCStFilterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F2128F1C1ED5740200A6162F /* KMCStFilterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMCStFilterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2128F361ED5743600A6162F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = KMCFilterDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		F2128F371ED5743600A6162F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = KMCFilterDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		F2128F381ED5743600A6162F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = KMCFilterDemo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		F2128F391ED5743600A6162F /* FilterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterManager.h; path = KMCFilterDemo/FilterManager.h; sourceTree = SOURCE_ROOT; };
+		F2128F3A1ED5743600A6162F /* FilterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilterManager.m; path = KMCFilterDemo/FilterManager.m; sourceTree = SOURCE_ROOT; };
+		F2128F3B1ED5743600A6162F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = KMCFilterDemo/Info.plist; sourceTree = SOURCE_ROOT; };
+		F2128F3C1ED5743600A6162F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = KMCFilterDemo/main.m; sourceTree = SOURCE_ROOT; };
+		F2128F3D1ED5743600A6162F /* StickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StickerCell.h; path = KMCFilterDemo/StickerCell.h; sourceTree = SOURCE_ROOT; };
+		F2128F3E1ED5743600A6162F /* StickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StickerCell.m; path = KMCFilterDemo/StickerCell.m; sourceTree = SOURCE_ROOT; };
+		F2128F3F1ED5743600A6162F /* StickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StickerView.h; path = KMCFilterDemo/StickerView.h; sourceTree = SOURCE_ROOT; };
+		F2128F401ED5743600A6162F /* StickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StickerView.m; path = KMCFilterDemo/StickerView.m; sourceTree = SOURCE_ROOT; };
+		F2128F411ED5743600A6162F /* UIButton+init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+init.h"; path = "KMCFilterDemo/UIButton+init.h"; sourceTree = SOURCE_ROOT; };
+		F2128F421ED5743600A6162F /* UIButton+init.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+init.m"; path = "KMCFilterDemo/UIButton+init.m"; sourceTree = SOURCE_ROOT; };
+		F2128F431ED5743600A6162F /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Expanded.h"; path = "KMCFilterDemo/UIColor+Expanded.h"; sourceTree = SOURCE_ROOT; };
+		F2128F441ED5743600A6162F /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Expanded.m"; path = "KMCFilterDemo/UIColor+Expanded.m"; sourceTree = SOURCE_ROOT; };
+		F2128F451ED5743600A6162F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = KMCFilterDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		F2128F461ED5743600A6162F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = KMCFilterDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
+		F2128F521ED5744100A6162F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = KMCFilterDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		F2128F541ED5744100A6162F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = KMCFilterDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		F2128F591ED5762C00A6162F /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		F2128F5B1ED5763100A6162F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2128F191ED5740200A6162F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1140902AF7BEDB397EEBC3AB /* libPods-KMCStFilterDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D12EE33FE0813AA10031393 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2128F5B1ED5763100A6162F /* libsqlite3.tbd */,
+				F2128F591ED5762C00A6162F /* libstdc++.tbd */,
+				5D46AF1D769C0DDC4E25140B /* libPods-KMCStFilterDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACBDE89C5BC98B8CC5BB9870 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99ECFB8F7AE3668EFED0942A /* Pods-KMCStFilterDemo.debug.xcconfig */,
+				DFD10C4D1A1AFC2D0961BE13 /* Pods-KMCStFilterDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2128F131ED5740200A6162F = {
+			isa = PBXGroup;
+			children = (
+				F2128F1E1ED5740200A6162F /* KMCStFilterDemo */,
+				F2128F1D1ED5740200A6162F /* Products */,
+				2D12EE33FE0813AA10031393 /* Frameworks */,
+				ACBDE89C5BC98B8CC5BB9870 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F2128F1D1ED5740200A6162F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2128F1C1ED5740200A6162F /* KMCStFilterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2128F1E1ED5740200A6162F /* KMCStFilterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F2128F361ED5743600A6162F /* AppDelegate.h */,
+				F2128F371ED5743600A6162F /* AppDelegate.m */,
+				F2128F381ED5743600A6162F /* Assets.xcassets */,
+				F2128F391ED5743600A6162F /* FilterManager.h */,
+				F2128F3A1ED5743600A6162F /* FilterManager.m */,
+				F2128F3B1ED5743600A6162F /* Info.plist */,
+				F2128F3C1ED5743600A6162F /* main.m */,
+				F2128F511ED5744100A6162F /* LaunchScreen.storyboard */,
+				F2128F531ED5744100A6162F /* Main.storyboard */,
+				F2128F3D1ED5743600A6162F /* StickerCell.h */,
+				F2128F3E1ED5743600A6162F /* StickerCell.m */,
+				F2128F3F1ED5743600A6162F /* StickerView.h */,
+				F2128F401ED5743600A6162F /* StickerView.m */,
+				F2128F411ED5743600A6162F /* UIButton+init.h */,
+				F2128F421ED5743600A6162F /* UIButton+init.m */,
+				F2128F431ED5743600A6162F /* UIColor+Expanded.h */,
+				F2128F441ED5743600A6162F /* UIColor+Expanded.m */,
+				F2128F451ED5743600A6162F /* ViewController.h */,
+				F2128F461ED5743600A6162F /* ViewController.m */,
+				F2128F1F1ED5740200A6162F /* Supporting Files */,
+			);
+			path = KMCStFilterDemo;
+			sourceTree = "<group>";
+		};
+		F2128F1F1ED5740200A6162F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2128F1B1ED5740200A6162F /* KMCStFilterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2128F331ED5740200A6162F /* Build configuration list for PBXNativeTarget "KMCStFilterDemo" */;
+			buildPhases = (
+				B9F2F7890ED2B3E1A3EB3AD5 /* [CP] Check Pods Manifest.lock */,
+				F2128F181ED5740200A6162F /* Sources */,
+				F2128F191ED5740200A6162F /* Frameworks */,
+				F2128F1A1ED5740200A6162F /* Resources */,
+				5FC79F424EA72BD7D1EFE84F /* [CP] Embed Pods Frameworks */,
+				FD5402E5ED333FF912F0A983 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMCStFilterDemo;
+			productName = KMCStFilterDemo;
+			productReference = F2128F1C1ED5740200A6162F /* KMCStFilterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2128F141ED5740200A6162F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ksyun;
+				TargetAttributes = {
+					F2128F1B1ED5740200A6162F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZGJ54Q7R45;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2128F171ED5740200A6162F /* Build configuration list for PBXProject "KMCStFilterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2128F131ED5740200A6162F;
+			productRefGroup = F2128F1D1ED5740200A6162F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2128F1B1ED5740200A6162F /* KMCStFilterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2128F1A1ED5740200A6162F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2128F551ED5744100A6162F /* LaunchScreen.storyboard in Resources */,
+				F2128F4A1ED5743600A6162F /* Info.plist in Resources */,
+				F2128F481ED5743600A6162F /* Assets.xcassets in Resources */,
+				F2128F561ED5744100A6162F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FC79F424EA72BD7D1EFE84F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMCStFilterDemo/Pods-KMCStFilterDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F2F7890ED2B3E1A3EB3AD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD5402E5ED333FF912F0A983 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMCStFilterDemo/Pods-KMCStFilterDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2128F181ED5740200A6162F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2128F471ED5743600A6162F /* AppDelegate.m in Sources */,
+				F2128F4E1ED5743600A6162F /* UIButton+init.m in Sources */,
+				F2128F501ED5743600A6162F /* ViewController.m in Sources */,
+				F2128F4C1ED5743600A6162F /* StickerCell.m in Sources */,
+				F2128F4F1ED5743600A6162F /* UIColor+Expanded.m in Sources */,
+				F2128F4B1ED5743600A6162F /* main.m in Sources */,
+				F2128F4D1ED5743600A6162F /* StickerView.m in Sources */,
+				F2128F491ED5743600A6162F /* FilterManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2128F511ED5744100A6162F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2128F521ED5744100A6162F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F2128F531ED5744100A6162F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2128F541ED5744100A6162F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2128F311ED5740200A6162F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2128F321ED5740200A6162F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2128F341ED5740200A6162F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99ECFB8F7AE3668EFED0942A /* Pods-KMCStFilterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZGJ54Q7R45;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"STFILTER=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/UICKeyChainStore\"",
+					"\"${PODS_ROOT}/Headers/Public/libksygpulive\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/KMCFilterDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksyun.KMCStFilterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2128F351ED5740200A6162F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD10C4D1A1AFC2D0961BE13 /* Pods-KMCStFilterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZGJ54Q7R45;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"STFILTER=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/UICKeyChainStore\"",
+					"\"${PODS_ROOT}/Headers/Public/libksygpulive\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/KMCFilterDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksyun.KMCStFilterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2128F171ED5740200A6162F /* Build configuration list for PBXProject "KMCStFilterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2128F311ED5740200A6162F /* Debug */,
+				F2128F321ED5740200A6162F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2128F331ED5740200A6162F /* Build configuration list for PBXNativeTarget "KMCStFilterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2128F341ED5740200A6162F /* Debug */,
+				F2128F351ED5740200A6162F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2128F141ED5740200A6162F /* Project object */;
+}

@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+#use_frameworks!
+
+target 'KMCStFilterDemo' do
+  pod 'Masonry'
+  pod 'SDWebImage'
+  pod 'MBProgressHUD'
+  pod 'KMCSTFilter’,:path=>"../"
+  #pod 'KMCSTFilter’
+end
+
+
