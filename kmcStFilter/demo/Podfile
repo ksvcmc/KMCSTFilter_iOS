@@ -6,8 +6,10 @@ target 'KMCStFilterDemo' do
   pod 'Masonry'
   pod 'SDWebImage'
   pod 'MBProgressHUD'
-  pod 'KMCSTFilter’,:path=>"../"
-  #pod 'KMCSTFilter’
+  #pod 'KMCSTFilter’,:path=>"../"
+  pod 'KMCSTFilter'
+  pod 'libksygpulive/libksygpulive'
+  pod 'libksygpulive/KSYGPUResource'
 end
 
 

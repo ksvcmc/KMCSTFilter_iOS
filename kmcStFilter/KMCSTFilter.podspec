@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KMCSTFilter"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "商汤贴纸+金山直播"
 
   s.ios.deployment_target = "8.0"
@@ -138,8 +138,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "libksygpulive/libksygpulive"
-  s.dependency "libksygpulive/KSYGPUResource"
   s.dependency "MJExtension"
   s.dependency "UICKeyChainStore", "2.1.1"
 end
