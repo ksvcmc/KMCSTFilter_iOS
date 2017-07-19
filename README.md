@@ -20,9 +20,9 @@
 5.下载安卓/iOS版本的SDK集成进项目。
 ![步骤6](https://raw.githubusercontent.com/wiki/ksvcmc/KMCSTFilter_Android/step6.png "接入步骤6")
 
-6.参照文档和DEMO填写TOKEN，就可以Run通项目了。
-7.试用中或试用结束后，有意愿购买该服务可以与我们的商务人员联系购买。
-（商务Email:KSC-VBU-KMC@kingsoft.com）
+6.参照文档和DEMO填写TOKEN，就可以Run通项目了。  
+7.试用中或试用结束后，有意愿购买该服务可以与我们的商务人员联系购买。  
+（商务Email:KSC-VBU-KMC@kingsoft.com）  
 ## 反馈与建议  
 主页：[金山魔方](https://docs.ksyun.com/read/latest/142/_book/index.html)  
 邮箱：ksc-vbu-kmc-dev@kingsoft.com  
