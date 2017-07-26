@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <KMCSTFilter/KMCFilter.h>
+#import <KMCStFilter/KMCFilter.h>
 #import "KSYGPUStreamerKit.h"
 #import "FilterManager.h"
 #import "StickerView.h"
@@ -71,8 +71,6 @@
     //初始化手势
     UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(bgViewPressed:)];
     tapGes.delegate = self;
-    
-   
     [self.view addGestureRecognizer:tapGes];
 }
 

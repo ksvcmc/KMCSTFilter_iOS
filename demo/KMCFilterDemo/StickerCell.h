@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <KMCSTFilter/KMCFilter.h>
+#import <KMCStFilter/KMCFilter.h>
 
 @interface StickerCell : UICollectionViewCell
 

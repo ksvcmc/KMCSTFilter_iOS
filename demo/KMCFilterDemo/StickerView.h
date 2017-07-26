@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <KMCSTFilter/KMCArMaterial.h>
+#import <KMCStFilter/KMCArMaterial.h>
 
 @protocol StickerViewDelegate <NSObject>
 
