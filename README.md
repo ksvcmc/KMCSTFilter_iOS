@@ -1,5 +1,13 @@
 # KMCStFilter
 商汤贴纸+金山直播
+
+[![Apps Using](https://img.shields.io/cocoapods/at/KMCSTFilter.svg?label=Apps%20Using%20KMCSTFilter&colorB=28B9FE)](http://cocoapods.org/pods/KMCSTFilter)[![Downloads](https://img.shields.io/cocoapods/dt/KMCSTFilter.svg?label=Total%20Downloads%20KMCSTFilter&colorB=28B9FE)](http://cocoapods.org/pods/KMCSTFilter)
+
+
+[![Latest release](https://img.shields.io/github/release/ksvcmc/KMCSTFilter_iOS.svg)](https://github.com/ksvcmc/KMCSTFilter_iOS/releases/latest)
+[![CocoaPods platform](https://img.shields.io/cocoapods/p/KMCSTFilter.svg)](https://cocoapods.org/pods/KMCSTFilter)
+[![CocoaPods version](https://img.shields.io/cocoapods/v/KMCSTFilter.svg?label=pod_github)](https://cocoapods.org/pods/KMCSTFilter)
+
 ## 项目背景
 金山魔方是一个多媒体能力提供平台，通过统一接入API、统一鉴权、统一计费等多种手段，降低客户接入多媒体处理能力的代价，提供多媒体能力供应商的效率。 本文档主要针对统一FILTER功能而说明。
 ## 效果展示
