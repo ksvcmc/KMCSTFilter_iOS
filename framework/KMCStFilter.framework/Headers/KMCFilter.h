@@ -10,7 +10,6 @@
 #import <Foundation/Foundation.h>
 #import "KMCArMaterial.h"
 #import "GPUImage/GPUImage.h"
-#import <libksygpulive/libksystreamerengine.h>
 
 typedef enum : NSUInteger {
     /**
